@@ -52,3 +52,19 @@ input[type='text'] {
 	padding: 10px;
 }
 
+.submitButton {
+	width: 291px;
+	margin: auto;
+}
+
+input[type='submit'] {
+	font-family: Avenir;
+	font-size: 16px;
+	width: 291px;
+	height: 55px;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+	border-color: #000000;
+	border-width: 1px;
+}
+
