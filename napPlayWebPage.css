@@ -1,4 +1,39 @@
 body {
 	font-family: Avenir;
-	font-size: 14px;
+	font-size: 18px;
 }
+
+.logo {
+	background-image: url(/Users/j.pang/NapPlayWebPage/images/TNB-Wordmark.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 307px; 
+	width: 455px;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+	width: 557px; 
+	margin: auto;
+}
+
+.video {
+	background-image: url(/Users/j.pang/NapPlayWebPage/images/video-placeholder.png);
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 858px;
+	margin: 30 auto;
+}
+
+.details {
+	text-align: center;
+	width: 450px;
+	margin: auto;
+}
+
+.details-2 {
+	text-align: center;
+	margin: 0 auto;
+}
+
