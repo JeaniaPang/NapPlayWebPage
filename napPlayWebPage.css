@@ -68,3 +68,17 @@ input[type='submit'] {
 	border-width: 1px;
 }
 
+.deviceImages {
+	background-image: url(/Users/j.pang/NapPlayWebPage/images/ipad-iphone.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 513px; 
+	width: 455px;
+}
+
+.appstoreIcon {
+	background-image: url(/Users/j.pang/NapPlayWebPage/images/appstoreicon.png);
+	background-repeat: no-repeat;
+	height: 66px; 
+	width: 222px;
+}
