@@ -118,29 +118,46 @@ input[type='submit'] {
 
 .socialMediaLinks {
 	list-style: none;
-	width: 300px;
+	width: 543px;
 	margin: auto;
+}
+
+li {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	margin-right: 60px;
 }
 
 .instagram {
 	background-image: url(/Users/j.pang/NapPlayWebPage/images/instagram.png);
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
 }
 
 .twitter {
 	background-image: url(/Users/j.pang/NapPlayWebPage/images/twitter.png);
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
 }
 
 .facebook {
 	background-image: url(/Users/j.pang/NapPlayWebPage/images/facebook.png);
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
+	
 }
 
+.footer {
+	overflow: auto;
+	clear: both;
+}
+
+.hashtag {
+	font-size: 24px;
+	text-align: center;
+	margin: 60 auto;
+	font-weight: 500;
+}
+
+.termsAndConditions {
+	font-size: 12px;
+	text-align: center;
+	margin: auto;
+}
 
