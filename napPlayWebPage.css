@@ -40,7 +40,7 @@ body {
 .enterEmail {
 	width: 488px;
 	margin: auto;
-	padding: 30px;
+	padding: 38 0 44 0;
 }
 
 input[type='text'] {
@@ -68,12 +68,19 @@ input[type='submit'] {
 	border-width: 1px;
 }
 
+.imagesHolder {
+	width: 713px;
+	margin: 54 auto 54;
+}
+
 .deviceImages {
 	background-image: url(/Users/j.pang/NapPlayWebPage/images/ipad-iphone.png);
 	background-repeat: no-repeat;
 	text-align: center;
 	height: 513px; 
 	width: 455px;
+	float: left;
+	padding-right: 30px;
 }
 
 .appstoreIcon {
@@ -81,4 +88,59 @@ input[type='submit'] {
 	background-repeat: no-repeat;
 	height: 66px; 
 	width: 222px;
+	overflow: hidden;
+	vertical-align: bottom;
+	margin-top: 500px;
 }
+
+.loveFeedHolder {
+	border-top: #D2D2D2 solid 1px;
+	margin-top: 54px;
+	border-bottom: #D2D2D2 solid 1px;
+	margin-bottom: 54px;
+}
+
+.loveFeedCopy {
+	background-image: url(/Users/j.pang/NapPlayWebPage/images/loveFeedCopy.png);
+	background-repeat: no-repeat;
+	height: 57px;
+	width: 330px;
+	margin: 54 auto;
+}
+
+.loveFeed {
+	background-image: url(/Users/j.pang/NapPlayWebPage/images/loveFeed.png);
+	background-repeat: no-repeat;
+	height: 447px;
+	width: 1034px;
+	margin: auto;
+}
+
+.socialMediaLinks {
+	list-style: none;
+	width: 300px;
+	margin: auto;
+}
+
+.instagram {
+	background-image: url(/Users/j.pang/NapPlayWebPage/images/instagram.png);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+}
+
+.twitter {
+	background-image: url(/Users/j.pang/NapPlayWebPage/images/twitter.png);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+}
+
+.facebook {
+	background-image: url(/Users/j.pang/NapPlayWebPage/images/facebook.png);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+}
+
+
