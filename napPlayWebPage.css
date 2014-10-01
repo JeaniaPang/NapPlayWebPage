@@ -150,13 +150,13 @@ li {
 
 /* view for iPhone - Only applies while screen is 480 or less */
 
-@media (max-width: 480px){
+@media screen and (max-width: 480px){
 
-	body .deviceImages {
+	.deviceImages {
 		display: block;
 	}
 
-	body .appstoreIcon {
+	.appstoreIcon {
 		padding-bottom: 30px;
 	}
 
