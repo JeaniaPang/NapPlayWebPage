@@ -1,46 +1,41 @@
+/* view for desktop */
+
 body {
 	font-family: Avenir;
 	font-size: 18px;
+	width: 960px;
+	margin: 0 auto;
 }
 
 .logo {
-	background-image: url(/Users/j.pang/NapPlayWebPage/images/TNB-Wordmark.png);
-	background-repeat: no-repeat;
 	text-align: center;
-	height: 307px; 
-	width: 455px;
 	margin: 0 auto;
+	width: 100%;
 }
 
 .center {
 	text-align: center;
-	width: 557px; 
 	margin: auto;
+	width: 100%;
+	padding-top: 30px;
 }
 
-.video {
-	background-image: url(/Users/j.pang/NapPlayWebPage/images/video-placeholder.png);
-	background-repeat: no-repeat;
-	height: 450px;
-	width: 858px;
-	margin: 30 auto;
-}
-
-.details {
-	text-align: center;
-	width: 450px;
+.videoPlaceholder {
+	padding: 30px;
 	margin: auto;
+	width: 100%;
 }
 
-.details-2 {
+.introduction {
 	text-align: center;
-	margin: 0 auto;
+	width: 100%;
+	margin: auto;
 }
 
 .enterEmail {
 	width: 488px;
 	margin: auto;
-	padding: 38 0 44 0;
+	padding: 20 0 44 0;
 }
 
 input[type='text'] {
@@ -66,81 +61,72 @@ input[type='submit'] {
 	background-color: #FFFFFF;
 	border-color: #000000;
 	border-width: 1px;
+	-webkit-appearance: none;
 }
 
+
 .imagesHolder {
-	width: 713px;
-	margin: 54 auto 54;
+	width: 100%;
+	display: inline-block;
+	text-align:center;
 }
 
 .deviceImages {
-	background-image: url(/Users/j.pang/NapPlayWebPage/images/ipad-iphone.png);
-	background-repeat: no-repeat;
-	text-align: center;
-	height: 513px; 
-	width: 455px;
-	float: left;
-	padding-right: 30px;
+	padding: 40px;
+	display: inline-block;
+
 }
 
 .appstoreIcon {
-	background-image: url(/Users/j.pang/NapPlayWebPage/images/appstoreicon.png);
-	background-repeat: no-repeat;
-	height: 66px; 
-	width: 222px;
-	overflow: hidden;
-	vertical-align: bottom;
-	margin-top: 500px;
+	display: inline-block;
+	
 }
 
 .loveFeedHolder {
 	border-top: #D2D2D2 solid 1px;
-	margin-top: 54px;
 	border-bottom: #D2D2D2 solid 1px;
-	margin-bottom: 54px;
+	margin: auto;
+	width: 100%;
+	padding: 20px;
+	clear: both;
 }
 
 .loveFeedCopy {
-	background-image: url(/Users/j.pang/NapPlayWebPage/images/loveFeedCopy.png);
-	background-repeat: no-repeat;
-	height: 57px;
-	width: 330px;
-	margin: 54 auto;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 30px;
 }
 
 .loveFeed {
-	background-image: url(/Users/j.pang/NapPlayWebPage/images/loveFeed.png);
-	background-repeat: no-repeat;
-	height: 447px;
-	width: 1034px;
+	width: 100%;
 	margin: auto;
+}
+
+.socialIcons {
+	text-align: center;
+	padding: 50 10 10 10;
+	width: 100%;
 }
 
 .socialMediaLinks {
+	margin: 0;
+	padding: 0;
 	list-style: none;
-	width: 543px;
-	margin: auto;
+	text-decoration: none;
+}
+
+a:-webkit-any-link{
+	text-decoration: none;
 }
 
 li {
-	float: left;
-	width: 100px;
-	height: 100px;
-	background-repeat: no-repeat;
-	margin-right: 60px;
-}
+	display: inline;
 
-.instagram {
-	background-image: url(/Users/j.pang/NapPlayWebPage/images/instagram.png);
 }
 
 .twitter {
-	background-image: url(/Users/j.pang/NapPlayWebPage/images/twitter.png);
-}
-
-.facebook {
-	background-image: url(/Users/j.pang/NapPlayWebPage/images/facebook.png);
-	
+	padding: 70px;
 }
 
 .footer {
@@ -160,4 +146,21 @@ li {
 	text-align: center;
 	margin: auto;
 }
+
+
+/* view for iPhone - Only applies while screen is 480 or less */
+
+@media (max-width: 480px){
+
+	body .deviceImages {
+		display: block;
+	}
+
+	body .appstoreIcon {
+		padding-bottom: 30px;
+	}
+
+}
+
+
 
