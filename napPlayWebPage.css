@@ -9,8 +9,6 @@ body {
 
 .logo {
 	text-align: center;
-	margin: 0 auto;
-	width: 100%;
 }
 
 .center {
@@ -20,10 +18,12 @@ body {
 	padding-top: 30px;
 }
 
-.videoPlaceholder {
+
+.video {
 	padding-top: 30px;
-	margin: auto;
 	width: 100%;
+	margin: auto;
+	text-align:center;
 }
 
 .introduction {
@@ -35,7 +35,7 @@ body {
 .enterEmail {
 	width: 488px;
 	margin: auto;
-	padding: 20 0 44 0;
+	padding-top: 15px;
 }
 
 input[type='text'] {
@@ -50,6 +50,7 @@ input[type='text'] {
 .submitButton {
 	width: 291px;
 	margin: auto;
+	padding-top: 35px;
 }
 
 input[type='submit'] {
@@ -92,20 +93,15 @@ input[type='submit'] {
 }
 
 .loveFeedCopy {
-	width: 100%;
-	margin: auto;
 	text-align: center;
-	padding: 20 0 30 0;
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 
-.loveFeed {
-	width: 100%;
-	margin: auto;
-}
 
 .socialIcons {
 	text-align: center;
-	padding: 50 10 10 10;
+	padding-top: 50px;
 	width: 100%;
 }
 
@@ -148,12 +144,13 @@ li {
 }
 
 
-/* view for iPhone - Only applies while screen is 480 or less */
+/* view for iPhone portrait - Only applies while screen is 480 or less */
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 320px){
 
 	.deviceImages {
 		display: block;
+		background-color: yellow;
 	}
 
 	.appstoreIcon {
