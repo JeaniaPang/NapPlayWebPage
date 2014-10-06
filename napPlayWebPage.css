@@ -7,7 +7,7 @@ body {
 	width: 100%;
 }
 
-.container {
+#container {
 	width: 960px;
 	margin: 0 auto;
 }
@@ -15,6 +15,7 @@ body {
 
 .logo {
 	text-align: center;
+	padding: 10px;
 }
 
 .center {
@@ -39,12 +40,14 @@ body {
 }
 
 .enterEmail {
-	width: 488px;
 	margin: auto;
 	padding-top: 15px;
+	text-align: center;V
+	-webkit-appearance: none;
 }
 
-input[type='text'] {
+input[type='text'],
+input[type='email'] {
 	font-family: Avenir;
 	font-size: 18px;
 	width: 488px;
@@ -89,14 +92,14 @@ input[type='submit'] {
 	
 }
 
-.loveFeedHolder {
+/*.loveFeedHolder {
 	border-top: #D2D2D2 solid 1px;
 	border-bottom: #D2D2D2 solid 1px;
 	margin: auto;
 	width: 100%;
 	padding: 20px;
 	clear: both;
-}
+}*/
 
 .loveFeedCopy {
 	text-align: center;
@@ -139,7 +142,6 @@ li {
 .hashtag {
 	font-size: 24px;
 	text-align: center;
-	margin: 60 auto;
 	font-weight: 500;
 }
 
@@ -150,19 +152,147 @@ li {
 }
 
 
-/* view for iPhone portrait - Only applies while screen is 320 or less */
 
-@media screen and (max-width: 320px){
+/* view for iPhone portrait */
+
+@media only screen and (max-width: 320px) and (orientation: portrait){
+
+	* {
+		max-width: 100%;
+		font-size: 15px;
+	}
+
+	#container {
+		width: 320px;
+		margin: 0;
+	}
+
+	.logo {
+		width: 320px;
+		padding: 0;
+	}
+	
+
+	.center {
+		padding-top: 20px;
+	}
+
+	.videoPlaceholder {
+		width: 100%;
+	}
+
+	.details {
+		padding: 10px;
+	}
+
+	.enterEmail {
+		text-align: center;
+	}
+
+	input[type='text'],
+	input[type='email'] {
+		width: 275px;
+		height: 30px;
+		margin: auto;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0;
+		border-color: #BEBEBE;
+	}
+	
 
 	.deviceImages {
-		display: block;
+		height: auto;
+		text-align: center;
+		margin: auto;
+		padding: 30px;
 	}
 
 	.appstoreIcon {
-		padding-bottom: 30px;
+		padding-bottom: 20px;
+		width: 100%;
+	}
+
+	/*.loveFeedHolder {
+		width: 90%;
+	}*/
+
+	.socialIcons {
+		padding-top: 20px;
+	}
+
+	.instagram img { 
+		width: 50px;
+	}
+
+	.facebook img {
+		width: 50px;
+	}
+
+	.twitter img {
+		width: 50px;
+	}
+
+	.twitter {
+		padding: 30px;
+	}
+}
+
+/* view for iPhone landscape */
+
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+	
+	* {
+		max-width: 100%;
+		font-size: 15px;
+	}
+
+	.logo {
+		width: 100%;
+	}
+
+	input[type='text'],
+	input[type='email'] {
+		width: 400px;
+	}
+
+	.deviceImages {
+		width: 250px;
+		padding: 10px;
+		padding-top: 30px;
+
+		}
+
+	.appstoreIcon {
+		width: 140px;
+	}
+
+	.socialIcons {
+		padding-top: 20px;
+	}
+
+	.instagram img { 
+		width: 50px;
+	}
+
+	.facebook img {
+		width: 50px;
+	}
+
+	.twitter img {
+		width: 50px;
+	}
+
+	.twitter {
+		padding: 30px;
 	}
 
 }
 
+/*view for iPad portrait */
 
-
+@media only screen and (max-width: 1024px) {
+	* {
+		max-width: 100%;
+		font-size: 15px;
+	}
+}
