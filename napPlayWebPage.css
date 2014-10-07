@@ -5,6 +5,7 @@ body {
 	font-size: 18px;
 	margin: 0 auto;
 	width: 100%;
+	color: #000000;
 }
 
 #container {
@@ -92,14 +93,15 @@ input[type='submit'] {
 	
 }
 
-/*.loveFeedHolder {
+.loveFeedHolder {
 	border-top: #D2D2D2 solid 1px;
 	border-bottom: #D2D2D2 solid 1px;
 	margin: auto;
 	width: 100%;
 	padding: 20px;
 	clear: both;
-}*/
+	display: none;
+}
 
 .loveFeedCopy {
 	text-align: center;
@@ -123,6 +125,7 @@ input[type='submit'] {
 
 a:-webkit-any-link{
 	text-decoration: none;
+	color: #000000;
 }
 
 li {
@@ -143,12 +146,14 @@ li {
 	font-size: 24px;
 	text-align: center;
 	font-weight: 500;
+	text-decoration: none;
 }
 
 .termsAndConditions {
 	font-size: 12px;
 	text-align: center;
 	margin: auto;
+	text-decoration: none;
 }
 
 
@@ -248,6 +253,10 @@ li {
 
 	.logo {
 		width: 100%;
+	}
+
+	.details {
+		padding: 10px;
 	}
 
 	input[type='text'],
