@@ -2,10 +2,14 @@
 
 body {
 	font-family: Avenir;
-	font-size: 18px;
+	font-size: 22px;
 	margin: 0 auto;
 	width: 100%;
 	color: #000000;
+}
+
+h2 {
+	text-align: center;
 }
 
 #container {
@@ -43,7 +47,7 @@ body {
 .enterEmail {
 	margin: auto;
 	padding-top: 15px;
-	text-align: center;V
+	text-align: center;
 	-webkit-appearance: none;
 }
 
@@ -79,7 +83,7 @@ input[type='submit'] {
 .imagesHolder {
 	width: 100%;
 	display: inline-block;
-	text-align:center;
+	text-align: center;
 }
 
 .deviceImages {
@@ -98,9 +102,7 @@ input[type='submit'] {
 	border-bottom: #D2D2D2 solid 1px;
 	margin: auto;
 	width: 100%;
-	padding: 20px;
 	clear: both;
-	display: none;
 }
 
 .loveFeedCopy {
@@ -156,8 +158,6 @@ li {
 	text-decoration: none;
 }
 
-
-
 /* view for iPhone portrait */
 
 @media only screen and (max-width: 320px) and (orientation: portrait){
@@ -170,11 +170,6 @@ li {
 	#container {
 		width: 320px;
 		margin: 0;
-	}
-
-	.logo {
-		width: 320px;
-		padding: 0;
 	}
 	
 
@@ -214,12 +209,7 @@ li {
 
 	.appstoreIcon {
 		padding-bottom: 20px;
-		width: 100%;
 	}
-
-	/*.loveFeedHolder {
-		width: 90%;
-	}*/
 
 	.socialIcons {
 		padding-top: 20px;
@@ -251,9 +241,6 @@ li {
 		font-size: 15px;
 	}
 
-	.logo {
-		width: 100%;
-	}
 
 	.details {
 		padding: 10px;
@@ -265,14 +252,13 @@ li {
 	}
 
 	.deviceImages {
-		width: 250px;
 		padding: 10px;
 		padding-top: 30px;
 
 		}
 
 	.appstoreIcon {
-		width: 140px;
+		padding-bottom: 20px;
 	}
 
 	.socialIcons {
@@ -302,6 +288,6 @@ li {
 @media only screen and (max-width: 1024px) {
 	* {
 		max-width: 100%;
-		font-size: 15px;
+		font-size: 22px;
 	}
 }
